@@ -1,7 +1,7 @@
 from flask import Flask, request
 
 app = Flask(__name__)
-VERIFY_TOKEN = "EAAU9rjrQWXgBOZBegg6d1zbBiXNZCrfjtEPKCm3lmCq1B0iVqt9RbygMeEZC4mxGJt9rI1ngrNv3HP4wkYgIi0X88yOWg1QInPl3uBlJTHElnByCG0OfiUC3WCstnB7mZC3ZB9uBhPz8C2s4hnEuujgnV7GuiAgESPwMThEIeK5DZBb90FhZCb421a4nQ7lI7seSTKNIwZDZD"
+VERIFY_TOKEN = "Mytoken_03"
 
 @app.route("/")
 def index():
